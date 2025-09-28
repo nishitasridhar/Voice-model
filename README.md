@@ -16,7 +16,7 @@ Powered by Google Generative AI
 Follow these steps to get the project running locally:
 
 1️⃣ Clone or Download the Repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/nishitasridhar/Voice-model
 
 
 If downloaded as a ZIP → extract and open the folder.
