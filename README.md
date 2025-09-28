@@ -1,40 +1,65 @@
-This model is used here as a voice agent. It accepts a single user input via text, voices a specific output, and then shuts down. This setup makes it ideal for quick, one-off voice interactions where you need a fast and precise response without maintaining a long-running conversation.
+🎙️ Voice Agent – Quick One-Off Voice Interactions
 
-STEPS TO SET-UP THE MODEL:
+This project sets up a voice-enabled AI agent that accepts a single user input (via text), generates a spoken response, and then shuts down.
+It’s ideal for fast, precise, one-off interactions without maintaining a long-running conversation.
 
-1. Clone or Download the Repository
-   
+🚀 Features
+
+Accepts single input and returns spoken response
+
+Lightweight, no persistent sessions
+
+Powered by Google Generative AI
+
+⚙️ Setup Guide
+
+Follow these steps to get the project running locally:
+
+1️⃣ Clone or Download the Repository
 git clone https://github.com/your-username/your-repo-name.git
 
-If you downloaded it as a ZIP file, extract it and open the folder.
 
-2. Open in VS Code
-   
-Navigate into the project folder and open it in Visual Studio Code.
+If downloaded as a ZIP → extract and open the folder.
 
-3. Create Environment File
-   
-In the root directory, create a .env file and add the required environment variables.
-Example:
+2️⃣ Open in VS Code
+
+Navigate into the project folder
+
+Open with Visual Studio Code
+
+3️⃣ Create Environment File
+
+Create a .env file in the root directory and add:
+
 API_KEY=your_api_key_here
 
-4. Create a Virtual Environment
-
+4️⃣ Create a Virtual Environment
 python -m venv .venv
 
-5. Activate the Virtual Environment
+5️⃣ Activate the Virtual Environment
 
-Windows (PowerShell): .venv\Scripts\Activate
-Mac/Linux: source .venv/bin/activate
+Windows (PowerShell):
 
-6. Install Dependencies
+.venv\Scripts\Activate
 
+
+Mac/Linux:
+
+source .venv/bin/activate
+
+6️⃣ Install Dependencies
 pip install -r requirements.txt
 
-7. Install Google Generative AI Library
-
+7️⃣ Install Google Generative AI Library
 pip install google-generativeai
 
-8. Run the Application
-
+8️⃣ Run the Application
 python -m app.main
+
+🎧 Usage
+
+Provide input via text
+
+Agent generates a voice output
+
+App automatically shuts down
