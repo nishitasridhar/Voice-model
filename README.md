@@ -16,6 +16,7 @@ Powered by Google Generative AI
 Follow these steps to get the project running locally:
 
 1️⃣ Clone or Download the Repository
+
 git clone https://github.com/nishitasridhar/Voice-model
 
 
@@ -34,6 +35,7 @@ Create a .env file in the root directory and add:
 API_KEY=your_api_key_here
 
 4️⃣ Create a Virtual Environment
+
 python -m venv .venv
 
 5️⃣ Activate the Virtual Environment
@@ -48,12 +50,15 @@ Mac/Linux:
 source .venv/bin/activate
 
 6️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
 7️⃣ Install Google Generative AI Library
+
 pip install google-generativeai
 
 8️⃣ Run the Application
+
 python -m app.main
 
 🎧 Usage
